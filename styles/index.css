@@ -9,14 +9,12 @@
     background-size: cover;   
     width: 100%;
     height: 600px;
-    filter: brightness(60%);             
-}
-
-#banner{
+    filter: brightness(60%);
     display: flex;
     justify-content: center;
-    align-items: center;        
+    align-items: center;              
 }
+
 h1{
     position: absolute;
     font-size: 90px;
@@ -27,7 +25,83 @@ h1{
     color: white;
     opacity: 0.6;
     background-color: var(--darkgrey);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+#frases{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: white;
+    background-color: var(--beige);
+    height: 70px;
+    text-align: center;
+    padding: 20px;
+}
+
+h4{
+    color: #333;
+}
+
+.produtos {
+    border: 1px solid var(--beige);
+    border-radius: 9px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 250px;
+    box-shadow: 0px 0px 15px rgb(175, 137, 91);
+    background-color: rgba(255, 248, 240, 0);
     
 }
+
+.produtos img {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+p {
+    color: rgb(70, 70, 70);
+}
+
+.produtos p:last-child {
+    font-weight: bold;
+    color: #333;
+}
+
+section{
+    display: flex;
+    justify-content: center ;
+}
+
+button{
+    background-color: var(--beige);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgb(148, 114, 72) ;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    margin-left: 75px;
+    margin-top: 20px;
+
+}
+
+button:hover {
+    background-color: rgb(148, 114, 72);
+    color: white;
+}
+
+
+
+ 
+
+    
