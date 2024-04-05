@@ -56,14 +56,6 @@ nav ul{
     padding: 0px 40px;
 }
 
-footer{
-    background-color: var(--brown);
-    margin-top: 20px;
-    height: 80px;
-    color: white;
-    display: flex;
-    justify-content: center;
-}
 
 
 

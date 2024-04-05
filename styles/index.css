@@ -20,7 +20,7 @@ h1{
     font-size: 90px;
     display: flex;
     justify-content: center;
-    top: 40%;
+    top: 50%;
     left: 21%;
     color: white;
     opacity: 0.6;
@@ -78,6 +78,7 @@ p {
 section{
     display: flex;
     justify-content: center ;
+    margin-top: 50px;
 }
 
 button{

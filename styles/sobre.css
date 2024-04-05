@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#gaby{
+    background-image: url(../images/gabygaby.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    width: 100%;
+    height: 1000px;
+    filter: brightness(60%);
+    display: flex;
+    justify-content: center;    
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    color: white;
+    background-color: rgb(78, 53, 29);
+    padding: 20px;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+p{
+    display: flex;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 53, 29);
+    margin: 100px;
+    padding: 30px;
+}
+
+footer{
+    background-color: var(--brown);
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
