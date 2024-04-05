@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#titulo{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    color: var(--brown);
+}
+
+#navredes{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+ul img{
+    display: flex;
+    background-color: var(--brown);
+    height: 100%;
+    width: 150px;  
+    border-radius: 150px;  
+    padding: 15px 40px 15px 40px;
+}
+
+#imagens{
+    display: flex;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+li{
+    list-style: none;
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../styles/encomendas.css">
+    <link rel="stylesheet" href="../styles/geral.css">
+    <link rel="stylesheet" href="../index.html">   
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/icons/art-svgrepo-com.svg">
+</head>
+
+<body>
+<header>      
+    <img id="logo" src="/icons/art-svgrepo-com.svg" alt="G logo">
+    <nav>
+        <div class="topnav">
+            <ul>
+                <li><a href="/index.html">Início</a></li>
+                <li><a href="/pages/encomendas.html">Encomendas</a></li>
+                <li><a href="/pages/redes.html">Redes Sociais</a></li>
+                <li><a href="/pages/sobremim.html">Sobre mim</a></li>                    
+            </ul>
+        </div>
+    </nav>   
+</header>
+
+<div id="avisos">
+    <h1>Sobre encomendas</h1>
+    <p>As encomendas são efetuadas via whatsapp, instagram, site ou twitter. Preços variam de acordo com a complexidade da arte, tamanho, coloração e estilização. Para encomendar uma arte por aqui, faça login ou cadastro logo abaixo!</p>
+</div>
+
+<main>
+    <div id="formulario">       
+        <form action="../index.html" method="get">
+            <h3>CADASTRE-SE</h3>
+            <!-- nome -->
+            <label for="nomedeusuario">Digite seu nome:</label>
+            <input required type="text" id="nomedeusuario">
+            <br>
+            <!-- email -->
+            <label for="emaildeusuario">Insira o seu melhor e-mail</label>
+            <input required type="email" id="emaildeusuario">
+            <br>
+            <!-- senha -->
+            <label for="senhadeusuario">Crie uma senha</label>
+            <input required type="password" id="senhadeusuario">
+            <br>
+            <!-- data de nascimento -->
+            <label for="datanascimento">Insira a sua data de nascimento</label>
+            <input required type="date" id="datanascimento">
+            <br>
+            
+            <input type="submit" value="Cadastrar">
+            <br>
+            <button type="reset">APAGAR TUDO</button>
+
+            <a href="../pages/login.html">Já possui cadastro? Faça o login!</a>
+        </form>
+    </div>
+</main>
+
+</body>
+</html>
